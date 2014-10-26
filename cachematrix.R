@@ -3,7 +3,7 @@
 ## It gives a solution for computing and storing the inverse of a matrix in a way
 ## that it caches the result and it is possible to use multiple times. 
 
-## The function below creates a special matrix object
+## The function below creates a special matrix object  
 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
